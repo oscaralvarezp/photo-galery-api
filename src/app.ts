@@ -1,6 +1,7 @@
 import express from "express";
 import morgan from 'morgan';
 import path from 'path';
+import cors from 'cors';
 
 import IndexRoutes from './routes/index';
 
@@ -13,6 +14,7 @@ app.set('port', process.env.PORT || 3000);
 
 // Middlewares
 app.use(morgan('dev'));
+app.use(cors());
 app.use(express.json());
 
 // Routes
