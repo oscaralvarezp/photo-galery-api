@@ -10,7 +10,7 @@ Comando para produccion:
 ```
 npm start
 ```
-Comando para desarrollar(NOTA: para este comando necesitas tener node & mongo instalado):
+Comando para desarrollar:
 ```
 npm run dev
 ```
